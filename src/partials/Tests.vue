@@ -66,6 +66,11 @@ export default {
     UnderlinedText,
     Definition,
     VideoPlayer
+  },
+  data() {
+    return {
+      name: "Test de titre comme ça sur deux lignes"
+    }
   }
 }
 </script>
