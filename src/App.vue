@@ -1,29 +1,23 @@
-
 <template>
-  <div>
-    <h1>
-      {{name}}
-    </h1>
+  <div class="bg-default">
+    <Header/>
+
+    <Intro/>
+
+    <Part1/>
+    <Part2/>
+
+    <Tests/>
   </div>
 </template>
 
-<script lang="ts">
-  import Vue from "vue";
+<script>
+import Vue from 'vue';
+import {Header, Intro, Tests, Part1, Part2} from './partials';
 
-  export default Vue.extend({
-    data: function() {
-      return {
-        name: 'Hello World!',
-      }
-    },
-  });
+export default Vue.extend({
+  components: {Header, Intro, Tests, Part1, Part2},
+});
 </script>
 
-<style lang="scss">
-$primary-color: white;
-$bg: black;
-h1 {
-  color: $primary-color;
-  background-color: $bg;
-}
-</style>
+<style lang="scss" src="./styles/main.scss"></style>

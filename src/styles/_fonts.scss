@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+  font-family: 'Avara_Bold';
+  src: url('./fonts/AvaraBold/Avara-Bold.eot');
+  src: url('./fonts/AvaraBold/Avara-Bold.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/AvaraBold/Avara-Bold.woff') format('woff'),
+  url('./fonts/AvaraBold/Avara-Bold.woff2') format('woff2'),
+  url('./fonts/AvaraBold/Avara-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avara_Bold_Italic';
+  src: url('./fonts/AvaraBoldItalic/Avara-BoldItalic.eot');
+  src: url('./fonts/AvaraBoldItalic/Avara-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/AvaraBoldItalic/Avara-BoldItalic.woff') format('woff'),
+  url('./fonts/AvaraBoldItalic/Avara-BoldItalic.woff2') format('woff2'),
+  url('./fonts/AvaraBoldItalic/Avara-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avara_Black';
+  src: url('./fonts/AvaraBlack/Avara-Black.eot');
+  src: url('./fonts/AvaraBlack/Avara-Black.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/AvaraBlack/Avara-Black.woff') format('woff'),
+  url('./fonts/AvaraBlack/Avara-Black.woff2') format('woff2'),
+  url('./fonts/AvaraBlack/Avara-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

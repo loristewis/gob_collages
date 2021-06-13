@@ -1,0 +1,34 @@
+:root {
+  /* Colors */
+  --default-bg: rgb(246, 245, 241);
+  --white: rgb(255, 255, 255);
+  --almost-white: rgb(237, 237, 237);
+  --black: rgb(0, 0, 0);
+  --almost-black: rgb(37, 37, 37);
+  //--olive: rgba(175, 176, 94, 0.2);
+  --olive: rgb(232, 231, 212);
+  --pale-pink: rgb(225, 212, 221);
+  --pale-blue: rgb(212, 214, 225);
+  --bluish-grey: rgb(46, 62, 68);
+  --yellow: rgb(233, 230, 65);
+  --pink: rgb(240, 193, 212);
+
+  /* Fonts */
+  --font-title: Avara_Bold, sans-serif;
+  --font-title-italic: Avara_Bold_Italic, sans-serif;
+  --font-title-black: Avara_Black, sans-serif;
+  --font-default: 'Poppins', sans-serif;
+
+  /* Breakpoints */
+  --sm: 640px;
+  --md: 768px;
+  --lg: 1024px;
+  --xl: 1280px;
+  --xxl: 1536px;
+}
+
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$xxl: 1536px;
