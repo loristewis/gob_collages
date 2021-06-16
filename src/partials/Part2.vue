@@ -35,7 +35,7 @@ export default {
   data() {
     return {
       title: 'Eliza et les collages',
-      quote: 'Je voulais aider d’autres victimes de violences sexuelles et sexistes, à <span class="underlined-text">s’identifier</span> et à leur dire qu’elles ne sont pas seules',
+      quote: 'Je voulais aider d’autres victimes de violences sexuelles et sexistes à <span class="underlined-text">s’identifier</span> et leur dire qu’elles ne sont pas seules',
       videoOptions: {
         autoplay: true,
         controls: true,
