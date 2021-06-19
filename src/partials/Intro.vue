@@ -3,17 +3,18 @@
     <Container>
       <div class="intro">
         <p>
+          
           Depuis août 2019, les slogans féministes viennent couvrir les murs des villes. Lettres noires sur feuilles A4,
-          ces collages ont pour but de sensibiliser les passants aux violences sexuelles et sexistes, tout en permettant
+          ces collages ont pour but de sensibiliser les passant·e·s aux violences sexuelles et sexistes, tout en permettant
           aux femmes de se réapproprier l’espace public.
         </p>
         <p>
-          Avec le temps, le mouvement a gagné en ampleur, rassemblant de plus en plus de militant·e·s pour défendre des
+          Avec le temps, le mouvement a gagné en ampleur, rassemblant de nombreux·ses militant·e·s pour défendre des
           causes de plus en plus variées.
         </p>
         <p>
-          Mais qui sont ces militant·e·s ? Nous avons rencontré Eliza, co-fondatrice du collectif féministe et inclusif
-          Les Grenades, qui a accepté de répondre à nos questions sur le mouvement des collages et sur son militantisme.
+          Mais qui sont ces militant·e·s ? Nous avons rencontré Elisa, co-fondatrice du collectif féministe et inclusif
+          Les Grenades, qui a accepté de répondre à nos questions sur son militantisme et le mouvement des collages.
         </p>
       </div>
     </Container>
