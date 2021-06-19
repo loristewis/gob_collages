@@ -30,7 +30,7 @@ export default {
   components: {Container, VideoPlayer, Definition, Quote, UnderlinedText, Mountain},
   data() {
     return {
-      title: 'Les Grenades',
+      title: 'Le collectif Les Grenades',
       quote: 'Les grenades c’est <span class="underlined-text">symbolique</span>, parce que ça représente l’arme, et les pépins qui sont à l’intérieur, ce sont les militantes',
       videoOptions: {
         autoplay: true,
