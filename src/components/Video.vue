@@ -40,6 +40,7 @@ export default {
         autoplay: false,
         controls: true,
         fluid: true,
+        preload: 'auto',
         sources: [
           {
             src: this.videoSrc,
