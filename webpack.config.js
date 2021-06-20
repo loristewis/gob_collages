@@ -43,6 +43,17 @@ const config = {
 				]
 			},
 			{
+				test: /\.jpg$/,
+				use: [
+					{
+						loader: 'url-loader',
+						options: {
+							mimetype: 'image/jpg'
+						}
+					}
+				]
+			},
+			{
 				test: /\.svg$/,
 				use: 'file-loader'
 			},
@@ -51,7 +62,7 @@ const config = {
 				type: 'asset/resource',
 			},
 			{
-				test: /\.(mov|mp4|ogg)$/,
+				test: /\.(mov|mp4|ogg|vtt)$/,
 				type: 'asset/resource',
 			}
 		]
