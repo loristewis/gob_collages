@@ -29,3 +29,49 @@
     @content;
   }
 }
+
+@mixin collages-grid($columns-md: 1fr 1fr 1fr) {
+  .collages-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 48px;
+
+    @include md {
+      grid-template-columns: $columns-md;
+    }
+  }
+}
+
+@mixin video-grid($columns-md: 5fr 3fr, $columns-lg: 7fr 3fr) {
+  .video-grid {
+    display: grid;
+    grid-column-gap: 72px;
+    grid-row-gap: 48px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+
+    @include md {
+      grid-template-columns: $columns-md;
+    }
+
+    //@include md {
+    //  grid-column-gap: 96px;
+    //  grid-template-columns: 6fr 3fr;
+    //}
+
+    @include xl {
+      grid-column-gap: 128px;
+      grid-template-columns: $columns-lg;
+    }
+  }
+
+  .video-quote {
+    font-family: var(--font-title);
+
+    --fluid-type-min: 1.4rem;
+    --fluid-type-target: 1.1vw;
+    --fluid-type-max: 2.5rem;
+  }
+}

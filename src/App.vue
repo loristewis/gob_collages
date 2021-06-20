@@ -6,17 +6,23 @@
 
     <Part1/>
     <Part2/>
+    <Part3/>
+    <Part4/>
+    <Part5/>
+    <Part6/>
+    <Part7/>
+    <Part8/>
 
-    <Tests/>
+    <Outro/>
   </div>
 </template>
 
 <script>
 import Vue from 'vue';
-import {Header, Intro, Tests, Part1, Part2} from './partials';
+import {Header, Intro, Part1, Part2, Part3, Part4, Part5, Part6, Part7, Part8, Outro} from './partials';
 
 export default Vue.extend({
-  components: {Header, Intro, Tests, Part1, Part2},
+  components: {Header, Intro, Part1, Part2, Part3, Part4, Part5, Part6, Part7, Part8, Outro},
 });
 </script>
 

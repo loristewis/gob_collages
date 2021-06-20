@@ -1,6 +1,6 @@
 <template>
   <div class="videobox-container">
-    <video ref="videoPlayer" class="video-player video-js vjs-default-skin"></video>
+    <video ref="videoPlayer" class="video-player video-js vjs-default-skin" :poster="posterSrc"></video>
   </div>
 </template>
 
@@ -15,6 +15,10 @@ export default {
       default() {
         return {};
       }
+    },
+    posterSrc: {
+      type: String,
+      required: true
     }
   },
   data() {
@@ -23,9 +27,22 @@ export default {
     }
   },
   mounted() {
-    this.player = videojs(this.$refs.videoPlayer, this.options, function onPlayerReady() {
-      console.log('onPlayerReady', this);
-    })
+    this.player = videojs(
+        this.$refs.videoPlayer,
+        this.options,
+        function onPlayerReady() {
+          console.log('onPlayerReady', this);
+        }
+    )
+    let tracks = this.player.textTracks()
+
+    for (let i = 0; i < tracks.length; i++) {
+      let track = tracks[i]
+      if (track.kind === "captions") {
+        console.log(track.src) // Never called
+        track.mode = "showing"
+      }
+    }
   },
   beforeDestroy() {
     if (this.player) {
@@ -36,6 +53,12 @@ export default {
 </script>
 
 <style lang="scss">
+.videobox-container {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
 // The color of icons, text, and the big play button border.
 // Try changing to #0f0
 $primary-foreground-color: #fff; // #fff default
@@ -45,9 +68,6 @@ $primary-foreground-color: #fff; // #fff default
 // Try changing to #900
 $primary-background-color: #2B333F; // #2B333F default
 $button-color: #E9E641;
-
-// Try changing to true
-$center-big-play-button: true; // true default
 
 .video-player {
   &.video-js {
@@ -64,26 +84,15 @@ $center-big-play-button: true; // true default
    of the button is the center, but there is trend towards moving it to a corner
    where it gets out of the way of valuable content in the poster image.*/
     .vjs-big-play-button {
-      /* The font size is what makes the big play button...big.
-       All width/height values use ems, which are a multiple of the font size.
-       If the .video-js font-size is 10px, then 3em equals 30px.*/
       font-size: 3em;
-
-      /* We're using SCSS vars here because the values are used in multiple places.
-       Now that font size is set, the following em values will be a multiple of the
-       new font size. If the font-size is 3em (30px), then setting any of
-       the following values to 3em would equal 30px. 3 * font-size. */
       $big-play-width: 2em;
-      /* 1.5em = 45px default */
       $big-play-height: 2em;
 
       line-height: $big-play-height;
       height: $big-play-height;
       width: $big-play-width;
 
-      /* 0.06666em = 2px default */
-      border: 0.06666em solid $primary-foreground-color;
-      /* 0.3em = 9px default */
+      border: none;
       border-radius: 50%;
 
       /* Align center */
@@ -92,30 +101,22 @@ $center-big-play-button: true; // true default
       margin-left: -($big-play-width / 2);
       margin-top: -($big-play-height / 2);
 
-    }
-
-    /* The default color of control backgrounds is mostly black but with a little
-    bit of blue so it can still be seen on all-black video frames, which are common. */
-    .vjs-control-bar,
-    .vjs-menu-button .vjs-menu-content {
-      background-color: rgba($primary-background-color, 0.7);
-    }
-
-    .vjs-big-play-button {
       background-color: rgba($button-color, 0.7);
     }
 
     &:hover {
       .vjs-big-play-button {
-        background-color: rgba($primary-background-color, 0.8);
+        background-color: rgba($button-color, 0.8);
       }
     }
 
-    // Make a slightly lighter version of the main background
-    // for the slider background.
-    $slider-bg-color: lighten($primary-background-color, 33%);
+    .vjs-control-bar,
+    .vjs-menu-button .vjs-menu-content {
+      background-color: rgba($primary-background-color, 0.7);
+    }
 
     /* Slider - used for Volume bar and Progress bar */
+    $slider-bg-color: lighten($primary-background-color, 33%);
     .vjs-slider {
       background-color: $slider-bg-color;
       background-color: rgba($slider-bg-color, 0.5);

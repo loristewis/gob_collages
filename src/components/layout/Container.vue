@@ -16,20 +16,24 @@ export default {
 .container {
   width: 90%;
   margin: auto;
-  max-width: 1440px;
-  padding: 64px 0;
+  max-width: 980px;
+  padding: 48px 0;
 
   > h2 {
     text-align: center;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
   }
 
-  @include lg {
-    //padding: 96px 0;
+  @include md {
+    padding: 96px 0;
 
     > h2 {
-      //margin-bottom: 96px;
+      margin-bottom: 72px;
     }
   }
+}
+
+.collages-container {
+  max-width: 1200px;
 }
 </style>

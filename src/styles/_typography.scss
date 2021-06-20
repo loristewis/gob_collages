@@ -22,7 +22,8 @@ h2,
 h3,
 h4,
 p,
-blockquote {
+blockquote,
+.stats__bigger {
   font-size: clamp(
           var(--fluid-type-min, 1.3rem),
           calc(1.3rem + var(--fluid-type-target, 3vw)),
@@ -34,26 +35,28 @@ h1 {
   font-family: var(--font-title);
 
   --fluid-type-min: 2.7rem;
-  --fluid-type-target: 4vw;
-  --fluid-type-max: 5.3rem;
+  --fluid-type-target: 6vw;
+  --fluid-type-max: 7rem;
 
-  max-width: 15ch;
+  //max-width: 15ch;
 }
 
 h2 {
-  --fluid-type-min: 2.4rem;
+  --fluid-type-min: 2.2rem;
   //target defaults to 3vw
   --fluid-type-max: 4rem;
 
-  max-width: 30ch;
+  //max-width: 30ch;
 }
 
 h3 {
-  --fluid-type-min: 2rem;
+  --fluid-type-min: 1.6rem;
   //target defaults to 3vw
-  --fluid-type-max: 3.3rem;
+  --fluid-type-max: 2.6rem;
 
-  max-width: 30ch;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 p {

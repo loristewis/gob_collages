@@ -1,27 +1,30 @@
 <template>
   <div class="bg-almost-white full-screen">
-    <div class="header-container">
+    <Container>
       <div class="header">
-        <h1>
-          <Quote>{{ title }}</Quote>
-        </h1>
+        <h1 v-html="title"></h1>
         <p v-html="subtitle"></p>
+        <div class="grenade">
+          <img :src="grenadeSrc">
+        </div>
       </div>
-    </div>
+    </Container>
   </div>
 </template>
 
 <script>
 import Quote from '../components/lib/Quote';
 import Container from '../components/layout/Container';
+import grenadeSrc from '../assets/illus/grenade.svg'
 
 export default {
   name: 'Header',
   components: {Container, Quote},
   data: function () {
     return {
-      title: 'Le but, c’est vraiment de cibler des endroits symboliques, et de les tapisser',
-      subtitle: 'Entretien avec Eliza, du collectif des <strong>Grenades</strong>'
+      title: 'Militer pour inspirer',
+      subtitle: 'Rencontre avec une colleuse',
+      grenadeSrc: grenadeSrc
     }
   },
 }
@@ -30,19 +33,9 @@ export default {
 <style scoped lang="scss">
 @import "../styles/mixins";
 
-.header-container {
-  width: 100%;
-  margin: auto;
-
-  @include sm {
-    width: 90%;
-  }
-}
-
 .header {
   height: 100%;
   width: 100%;
-  //margin-bottom: 64px;
 
   @include sm {
     padding-bottom: 64px;
@@ -51,9 +44,8 @@ export default {
 }
 
 h1 {
-  text-transform: lowercase;
-  max-width: 18ch;
-  margin: auto;
+  position: relative;
+  z-index: 10;
 
   .quote {
     margin: 16px 48px 64px;
@@ -65,18 +57,28 @@ h1 {
 }
 
 p {
+  position: relative;
+  z-index: 10;
   text-transform: uppercase;
   font-weight: 600;
-  text-align: center;
-  //font-size: 2rem;
-  margin: auto 5%;
-
-  @include sm {
-    margin: auto;
-  }
 
   --fluid-type-target: 2.5vw;
   --fluid-type-max: 2.6rem;
+}
+
+.grenade {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: flex-end;
+
+  > img {
+    max-height: 45vh;
+
+    @include md {
+      margin-top: -144px;
+    }
+  }
 }
 
 </style>

@@ -56,8 +56,6 @@ import Container from '../components/layout/Container';
 import Definition from '../components/sections/Definition';
 import VideoPlayer from '../components/VideoPlayer';
 
-import videoSrc from './../assets/presentations.mp4';
-
 export default {
   name: 'Tests',
   components: {

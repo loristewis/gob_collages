@@ -12,8 +12,9 @@ export default {
 
 <style scoped lang="scss">
 .quote {
-  margin: 0;
+  margin: 0 auto;
   quotes: "“" "„";
+  max-width: 40ch;
 
   &::before {
     content: open-quote;
