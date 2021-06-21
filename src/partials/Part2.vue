@@ -68,7 +68,7 @@ export default {
         },
         {
           title: 'En 2019, dans le monde,<br/><span class="stats__bigger">1 femme sur 5</span class="stats__bigger"><br/>ayant entre 20 et 24 ans s’était mariée avant l’âge de 18 ans.',
-          source: 'Nations unies, département des Affaires économiques et sociales, <a href="https://unstats.un.org/sdgs/report/2020/goal-05/" target="_blank>division des Statistiques</a>, 2020'
+          source: 'Nations unies, département des Affaires économiques et sociales, <a href="https://unstats.un.org/sdgs/report/2020/goal-05/" target="_blank">division des Statistiques</a>, 2020'
         }
       ],
       femSymboleSrc: femSymboleSrc,

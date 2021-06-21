@@ -56,50 +56,26 @@ export default {
 
   @include lg {
     display: block;
+    position: relative;
     height: 0;
-    //max-width: 100%;
   }
 
   > img {
-    max-height: 90px;
+    height: 90px;
   }
 
   &:first-child {
-    text-align: left;
-
     > img {
       transform: translate(-150px, 40px);
     }
   }
 
   &:last-child {
-    text-align: right;
-
     > img {
+      position: absolute;
+      right: 0;
       transform: translate(120px, -100px);
     }
   }
 }
-
-/* Élément | http://localhost:8090/ */
-
-div.bg-olive:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
-}
-
-/* Élément | http://localhost:8090/ */
-
-div.bg-olive:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
-}
-
-/* Élément | http://localhost:8090/ */
-
-div.bg-olive:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
-
-}
-
-/* Élément | http://localhost:8090/ */
-
-div.bg-olive:nth-child(2) > div:nth-child(1) > div:nth-child(2) > img:nth-child(1) {
-}
-
 </style>

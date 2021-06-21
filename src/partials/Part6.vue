@@ -93,17 +93,16 @@ export default {
   display: none;
 
   @include md {
+    display: block;
+    position: relative;
     height: 0;
   }
 }
 
 @include md {
   .sparkle {
-    display: block;
-    text-align: left;
-
     > img {
-      max-height: 50px;
+      height: 50px;
       transform: translateX(10px);
 
       @include lg {
@@ -111,15 +110,12 @@ export default {
       }
     }
   }
-}
 
-@include md {
   .fire {
-    display: block;
-    text-align: right;
-
     > img {
-      max-height: 150px;
+      position: absolute;
+      right: 0;
+      height: 150px;
       transform: translate(0px, -100px);
     }
   }

@@ -123,7 +123,7 @@ export default {
       height: 0;
 
       > img {
-        max-height: 200px;
+        height: 200px;
         transform: translate(-248px) rotate(15deg);
       }
     }
@@ -195,12 +195,22 @@ export default {
   }
 
   &__sparkles {
-    max-width: 50px;
+    width: 25px;
+    transform:translateY(45px);
+
+    @include sm {
+      width: 50px;
+      transform:translateY(0);
+    }
   }
 
   &__phone {
-    max-width: 150px;
-    transform: translate(45px, 90px) rotate(-26deg);
+    width: 75px;
+    transform:translate(45px, 90px) rotate(-26deg);
+
+    @include sm {
+      width: 150px;
+    }
   }
 }
 

@@ -119,16 +119,19 @@ export default {
 .illu-svg {
   position: relative;
   z-index: 20;
-  //height: 110px;
   text-align: center;
-  transform: translateY(-10%);
 
   @include sm {
     height: 0;
   }
 
   > img {
-    max-height: 200px;
+    height: 150px;
+
+    @include sm {
+      transform: translateY(-10%);
+      height: 200px;
+    }
   }
 }
 

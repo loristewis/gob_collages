@@ -80,15 +80,17 @@ export default {
 
   @include sm {
     height: 0;
-    text-align: right;
   }
 
   > img {
-    max-height: 200px;
-    transform: translate(16px, -10%);
+    height: 150px;
+    transform: translateX(10%);
 
-    @include sm {
-      transform: translate(-72px, -10%);
+    @include sm {;
+      position: absolute;
+      right: 72px;
+      height: 200px;
+      transform: translateX(0);
     }
   }
 }
