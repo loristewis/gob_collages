@@ -27,19 +27,19 @@
 </template>
 
 <script>
-import Container from '../components/layout/Container';
-import Video from '../components/Video';
-import Quote from '../components/lib/Quote';
-import Mountain from '../components/sections/Mountain';
-import PhotosCollages from '../components/PhotosCollages';
-import YellowButton from '../components/lib/YellowButton';
+import Container from '../components/layout/Container'
+import Video from '../components/Video'
+import Quote from '../components/lib/Quote'
+import Mountain from '../components/sections/Mountain'
+import PhotosCollages from '../components/PhotosCollages'
+import YellowButton from '../components/lib/YellowButton'
 
 import subtitles8 from '../assets/videos/8_crise_sanitaire.vtt'
 
-const flecheSrc = () => import('../assets/illus/fleche-1.svg')
-const virtuelScr = () => import('../assets/photos/collage_virtuel.png')
+import flecheSrc from '../assets/illus/fleche-1.svg'
+import virtuelScr from '../assets/photos/collage_virtuel.png'
 
-const collageElisa = () => import('../assets/photos/collageelisa.jpg')
+import collageElisa from '../assets/photos/collageelisa.jpg'
 
 export default {
   name: 'Part8',

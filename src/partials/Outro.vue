@@ -30,10 +30,10 @@
 </template>
 
 <script>
-import Container from '../components/layout/Container';
+import Container from '../components/layout/Container'
 
-const peintureSrc = () => import('../assets/illus/peinture.svg')
-const portableSrc = () => import('../assets/illus/portable.svg')
+import peintureSrc from '../assets/illus/peinture.svg'
+import portableSrc from '../assets/illus/portable.svg'
 
 
 export default {

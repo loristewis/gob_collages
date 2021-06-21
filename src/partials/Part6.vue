@@ -27,21 +27,21 @@
 </template>
 
 <script>
-import Container from '../components/layout/Container';
-import Video from '../components/Video';
-import Quote from '../components/lib/Quote';
-import Mountain from '../components/sections/Mountain';
-import YellowButton from '../components/lib/YellowButton';
-import PhotosCollages from '../components/PhotosCollages';
+import Container from '../components/layout/Container'
+import Video from '../components/Video'
+import Quote from '../components/lib/Quote'
+import Mountain from '../components/sections/Mountain'
+import YellowButton from '../components/lib/YellowButton'
+import PhotosCollages from '../components/PhotosCollages'
 
-const subtitles6 = () => import('../assets/videos/6_obstacles.vtt')
+import subtitles6 from '../assets/videos/6_obstacles.vtt'
 
-const collage14 = () => import('../assets/photos/collage14.jpg')
-const collage15 = () => import('../assets/photos/collage15.jpg')
-const collage16 = () => import('../assets/photos/collage16.jpg')
+import collage14 from '../assets/photos/collage14.jpg'
+import collage15 from '../assets/photos/collage15.jpg'
+import collage16 from '../assets/photos/collage16.jpg'
 
-const sparkleSrc = () => import('../assets/illus/etincelle.svg')
-const fireSrc = () => import('../assets/illus/flamme.svg')
+import sparkleSrc from '../assets/illus/etincelle.svg'
+import fireSrc from '../assets/illus/flamme.svg'
 
 export default {
   name: 'Part6',

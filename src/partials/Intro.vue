@@ -43,10 +43,10 @@
 <script>
 import Container from '../components/layout/Container'
 
-const elisaSrc = () => import('../assets/illus/portrait.svg')
-const twitterSrc = () => import('../assets/illus/twitter.png')
-const instaSrc = () => import('../assets/illus/insta.png')
-const collageSrc = () => import('../assets/photos/despentes.png')
+import elisaSrc from '../assets/illus/portrait.svg'
+import twitterSrc from '../assets/illus/twitter.png'
+import instaSrc from '../assets/illus/insta.png'
+import collageSrc from '../assets/photos/despentes.png'
 
 export default {
   name: 'Intro',

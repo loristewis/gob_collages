@@ -23,20 +23,20 @@
 </template>
 
 <script>
-import Container from '../components/layout/Container';
-import Video from '../components/Video';
-import Quote from '../components/lib/Quote';
-import Mountain from '../components/sections/Mountain';
-import YellowButton from '../components/lib/YellowButton';
-import PhotosCollages from '../components/PhotosCollages';
+import Container from '../components/layout/Container'
+import Video from '../components/Video'
+import Quote from '../components/lib/Quote'
+import Mountain from '../components/sections/Mountain'
+import YellowButton from '../components/lib/YellowButton'
+import PhotosCollages from '../components/PhotosCollages'
 
-import subtitles7 from '../assets/videos/7_protection_infos.vtt';
+import subtitles7 from '../assets/videos/7_protection_infos.vtt'
 
-const flecheSrc = () => import('../assets/illus/fleche-1.svg')
-const briefSrc = () => import('../assets/illus/collages-feminicides-portable.png')
+import flecheSrc from '../assets/illus/fleche-1.svg'
+import briefSrc from '../assets/illus/collages-feminicides-portable.png'
 
-const collage17 = () => import('../assets/photos/collage17.jpg')
-const collage18 = () => import('../assets/photos/collage18.jpg')
+import collage17 from '../assets/photos/collage17.jpg'
+import collage18 from '../assets/photos/collage18.jpg'
 
 export default {
   name: 'Part7',

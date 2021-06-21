@@ -17,20 +17,20 @@
 </template>
 
 <script>
-import Container from '../components/layout/Container';
-import Video from '../components/Video';
-import Definition from '../components/sections/Definition';
-import Quote from '../components/lib/Quote';
-import UnderlinedText from '../components/lib/UnderlinedText';
-import Mountain from '../components/sections/Mountain';
+import Container from '../components/layout/Container'
+import Video from '../components/Video'
+import Definition from '../components/sections/Definition'
+import Quote from '../components/lib/Quote'
+import UnderlinedText from '../components/lib/UnderlinedText'
+import Mountain from '../components/sections/Mountain'
 
-import subtitles1 from '../assets/videos/1_presentations.vtt';
+import subtitles1 from '../assets/videos/1_presentations.vtt'
 
-const peintureSrc = () => import('../assets/illus/peinture.svg')
-const collage1 = () => import('../assets/photos/collage1.jpg')
-const collage2 = () => import('../assets/photos/collage2.jpg')
-const collage3 = () => import('../assets/photos/collage3.jpg')
-const PhotosCollages = () => import('../components/PhotosCollages')
+import peintureSrc from '../assets/illus/peinture.svg'
+import collage1 from '../assets/photos/collage1.jpg'
+import collage2 from '../assets/photos/collage2.jpg'
+import collage3 from '../assets/photos/collage3.jpg'
+import PhotosCollages from '../components/PhotosCollages'
 
 export default {
   name: 'Part1',

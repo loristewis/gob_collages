@@ -28,20 +28,20 @@
 </template>
 
 <script>
-import Container from '../components/layout/Container';
-import Video from '../components/Video';
-import Definition from '../components/sections/Definition';
-import Quote from '../components/lib/Quote';
-import UnderlinedText from '../components/lib/UnderlinedText';
-import Mountain from '../components/sections/Mountain';
-import YellowButton from '../components/lib/YellowButton';
+import Container from '../components/layout/Container'
+import Video from '../components/Video'
+import Definition from '../components/sections/Definition'
+import Quote from '../components/lib/Quote'
+import UnderlinedText from '../components/lib/UnderlinedText'
+import Mountain from '../components/sections/Mountain'
+import YellowButton from '../components/lib/YellowButton'
 
 import subtitles3 from '../assets/videos/3_collectif.vtt'
 
-const poingSrc = () => import( '../assets/illus/poing.svg')
-const collage7 = () => import( '../assets/photos/collage7.jpg')
-const collage8 = () => import( '../assets/photos/collage8.jpg')
-const PhotosCollages = () => import( '../components/PhotosCollages')
+import poingSrc from '../assets/illus/poing.svg'
+import collage7 from '../assets/photos/collage7.jpg'
+import collage8 from '../assets/photos/collage8.jpg'
+import PhotosCollages from '../components/PhotosCollages'
 
 export default {
   name: 'Part3',
