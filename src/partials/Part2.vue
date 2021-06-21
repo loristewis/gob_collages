@@ -102,7 +102,6 @@ export default {
 
   > img {
     max-height: 224px;
-    //transform: translateY(-120px);
   }
 }
 
@@ -146,7 +145,6 @@ export default {
 
         &__bigger {
           --fluid-type-min: 2.3rem;
-          //--fluid-type-target: 3rem;
           --fluid-type-max: 3.7rem;
           font-weight: 500;
           line-height: 1.2;

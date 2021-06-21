@@ -67,10 +67,6 @@ export default {
 <style scoped lang="scss">
 @import "src/styles/mixins";
 
-.container {
-  //max-width: px;
-}
-
 @include video-grid();
 
 .intro {
@@ -114,9 +110,6 @@ export default {
 
   @include md {
     margin: auto;
-    //position: absolute;
-    //left: 50%;
-    //transform: translateX(-50%);
     position: relative;
     bottom: -20vh;
   }

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-almost-white full-screen">
+  <div class="full-screen">
     <Container>
       <div class="header">
         <h1 v-html="title"></h1>

@@ -107,7 +107,6 @@ export default {
 }
 
 .more {
-  //margin: 88px 0 240px;
   margin: 88px 0 0px;
   padding: 48px 24px;
 
