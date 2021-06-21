@@ -55,7 +55,7 @@ export default {
         {
           src: collageElisa,
           alt: '',
-          caption: '<a href="https://www.instagram.com/p/CMURMVYggNG/">@julietteprotest / Les Grenades</a>'
+          caption: '<a href="https://www.instagram.com/p/CMURMVYggNG/" target="_blank">@julietteprotest / Les Grenades</a>'
         }
       ]
     }

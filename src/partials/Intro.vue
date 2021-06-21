@@ -2,7 +2,7 @@
   <div>
     <div class="full-screen">
       <Container>
-        <figure class="photo-collage" >
+        <figure class="photo-collage">
           <img :src="collageSrc"
                :alt="collageAlt">
           <figcaption v-html="collageCaption"></figcaption>
@@ -12,15 +12,11 @@
     <div class="bg-almost-black full-screen">
       <Container>
         <div class="intro">
-          <p>
-            Depuis août 2019, les slogans féministes viennent couvrir les murs des villes. Lettres noires sur feuilles A4,
-            ces collages ont pour but de sensibiliser les passant·e·s aux violences sexuelles et sexistes, tout en permettant
-            aux femmes de se réapproprier l’espace public.
-          </p>
-          <p>
-            Avec le temps, le mouvement a gagné en ampleur, rassemblant de nombreux·ses militant·e·s pour défendre des
-            causes de plus en plus variées.
-          </p>
+          <p>Depuis août 2019, les slogans féministes viennent couvrir les murs des villes. Lettres noires sur feuilles
+            A4, ces collages ont pour but de sensibiliser les passant·e·s aux violences sexuelles et sexistes, tout en
+            permettant aux femmes de se réapproprier l’espace public.</p>
+          <p>Avec le temps, le mouvement a gagné en ampleur, rassemblant de nombreux·ses militant·e·s pour défendre des
+            causes de plus en plus variées.</p>
         </div>
       </Container>
     </div>
@@ -29,14 +25,15 @@
         <div class="intro video-grid">
           <div>
             <p>Mais qui sont ces militant·e·s ?</p>
-            <p>Nous avons rencontré <span class="underlined-text">Eliza</span>, co-fondatrice du collectif féministe et inclusif <span class="underlined-text">Les Grenades</span>, qui a accepté de répondre à nos questions sur le mouvement des collages et sur son
-              militantisme.</p>
+            <p>Nous avons rencontré <span class="underlined-text">Eliza</span>, co-fondatrice du collectif féministe et
+              inclusif <span class="underlined-text">Les Grenades</span>, qui a accepté de répondre à nos questions sur
+              le mouvement des collages et sur son militantisme.</p>
           </div>
           <img class="elisa" :src="elisaSrc" alt="">
         </div>
         <div class="socials">
-          <a href="https://www.instagram.com/collectif.les.grenades/"><img :src="instaSrc" alt=""></a>
-          <a href="https://twitter.com/LesGrenades_"><img :src="twitterSrc" alt=""></a>
+          <a href="https://www.instagram.com/collectif.les.grenades/" target="_blank"><img :src="instaSrc" alt=""></a>
+          <a href="https://twitter.com/LesGrenades_" target="_blank"><img :src="twitterSrc" alt=""></a>
         </div>
       </Container>
     </div>
@@ -60,8 +57,8 @@ export default {
       twitterSrc: twitterSrc,
       instaSrc: instaSrc,
       collageSrc: collageSrc,
-      collageAlt: "Le viol c'est la guerre civile, l'organisation politiqu par laquelle un sexe déclare à l'autre : « Je prends tous les droits sur toi, je te force à te sentir inférieure, coupable et dégradée. » - V. Despentes",
-      collageCaption: "<a href=\"https://www.instagram.com/p/CDynBl6lDfu/\">@gigi_boumboum / Les Grenades</a>"
+      collageAlt: 'Le viol c’est la guerre civile, l’organisation politiqu par laquelle un sexe déclare à l’autre : « Je prends tous les droits sur toi, je te force à te sentir inférieure, coupable et dégradée. » - V. Despentes',
+      collageCaption: '<a href="https://www.instagram.com/p/CDynBl6lDfu/" target="_blank">@gigi_boumboum / Les Grenades</a>'
     }
   }
 }

@@ -60,15 +60,15 @@ export default {
       statistics: [
         {
           title: 'En France,<br/><span class="stats__bigger">32% des femmes</span class="stats__bigger"><br/>ont déjà subi du harcèlement sexuel au travail.',
-          source: '<a href="https://www.ifop.com/publication/les-francaises-face-au-harcelement-sexuel-au-travail-entre-meconnaissance-et-resignation/">enquête Ifop</a>, 2018'
+          source: '<a href="https://www.ifop.com/publication/les-francaises-face-au-harcelement-sexuel-au-travail-entre-meconnaissance-et-resignation/" target="_blank">enquête Ifop</a>, 2018'
         },
         {
           title: '<span class="stats__bigger">93 000 femmes</span class="stats__bigger"><br/>déclarent avoir été victimes de viol ou de tentative de viol chaque année en France.',
-          source: '<a href="https://www.interieur.gouv.fr/Actualites/Infos-pratiques/Signalement-des-violences-sexuelles-et-sexistes/Violences-sexuelles-et-sexistes-les-chiffres-cles">ministère de l’Intérieur</a>'
+          source: '<a href="https://www.interieur.gouv.fr/Actualites/Infos-pratiques/Signalement-des-violences-sexuelles-et-sexistes/Violences-sexuelles-et-sexistes-les-chiffres-cles" target="_blank>ministère de l’Intérieur</a>'
         },
         {
           title: 'En 2019, dans le monde,<br/><span class="stats__bigger">1 femme sur 5</span class="stats__bigger"><br/>ayant entre 20 et 24 ans s’était mariée avant l’âge de 18 ans.',
-          source: 'Nations unies, département des Affaires économiques et sociales, <a href="https://unstats.un.org/sdgs/report/2020/goal-05/">division des Statistiques</a>, 2020'
+          source: 'Nations unies, département des Affaires économiques et sociales, <a href="https://unstats.un.org/sdgs/report/2020/goal-05/" target="_blank>division des Statistiques</a>, 2020'
         }
       ],
       femSymboleSrc: femSymboleSrc,
