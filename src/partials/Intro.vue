@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="full-screen">
+    <div class="despentes">
       <Container>
         <figure class="photo-collage">
           <img :src="collageSrc"
@@ -68,6 +68,12 @@ export default {
 @import "src/styles/mixins";
 
 @include video-grid();
+
+.despentes {
+  > .container {
+    padding-top: 0;
+  }
+}
 
 .intro {
   p {

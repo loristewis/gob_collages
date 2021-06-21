@@ -9,7 +9,7 @@
             Surtout dans une période de crise sanitaire, où un entretien à distance était notre seule option.
           </p>
           <p>
-            Merci également à toutes les personnes qui ont apporté des sources de documentation, notamment nos professeur.e.s Augustin Gimel, Sophie Quatre-Barbes, Pauline Gommy, Sarah Garcin, et Sylvie Masson, ainsi qu'Elsa Delmas.
+            Merci également à toutes les personnes qui ont apporté des sources de documentation, notamment nos professeur.e.s Augustin Gimel, Sophie Quatrebarbes, Pauline Gommy, Sarah Garcin, et Sylvie Masson, ainsi qu'Elsa Delmas.
           </p>
         </div>
       </Container>

@@ -20,12 +20,10 @@
           </div>
         </div>
       </Container>
-      <div class="illu-svg"><img class="illu-svg__sparkles" :src="starSrc" alt=""><img class="illu-svg__phone"
-                                                                                       :src="phoneSrc" alt=""></div>
+      <div class="illu-svg"><img class="illu-svg__sparkles" :src="starSrc" alt=""><img class="illu-svg__phone" :src="phoneSrc" alt=""></div>
     </div>
     <Mountain class="bg-olive"/>
     <PhotosCollages display="D" ligne="4" :photos="collages"/>
-
   </div>
 </template>
 
@@ -214,7 +212,7 @@ export default {
 }
 
 .bg-image {
-  padding-top: 550px;
+  padding-top: 500px;
 
   @include lg {
     padding-top: 650px;
@@ -222,6 +220,10 @@ export default {
 
   @include xl {
     padding-top: 600px;
+  }
+
+  @include xxl {
+    padding-top: 500px;
   }
 }
 </style>
