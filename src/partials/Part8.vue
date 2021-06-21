@@ -20,7 +20,7 @@
     <Mountain class="bg-pale-pink"/>
     <PhotosCollages display="E" ligne="4" :photos="collages">
       <div class="transcription__container">
-        <YellowButton class="transcription__button" title="Retrouver la transcription complète de l’entretien"/>
+        <YellowButton class="transcription__button" title="Retrouver la transcription complète de l’entretien" href="https://docs.google.com/document/d/1N6iy4qF-illH-p9fEDXZycPiWya1HOH9CCFYWdXHvv4/edit?usp=sharing"/>
       </div>
     </PhotosCollages>
   </div>
