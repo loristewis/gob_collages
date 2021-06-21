@@ -122,7 +122,7 @@ export default {
   }
 
   a img {
-    max-width: 16vw;
+    width: 55px;
   }
 }
 
