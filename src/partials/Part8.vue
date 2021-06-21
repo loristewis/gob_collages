@@ -36,10 +36,10 @@ import YellowButton from '../components/lib/YellowButton';
 
 import subtitles8 from '../assets/videos/8_crise_sanitaire.vtt'
 
-import flecheSrc from '../assets/illus/fleche-1.svg';
-import virtuelScr from '../assets/photos/collage_virtuel.png';
+const flecheSrc = () => import('../assets/illus/fleche-1.svg')
+const virtuelScr = () => import('../assets/photos/collage_virtuel.png')
 
-import collageElisa from '../assets/photos/collageelisa.jpg'
+const collageElisa = () => import('../assets/photos/collageelisa.jpg')
 
 export default {
   name: 'Part8',

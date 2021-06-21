@@ -25,23 +25,23 @@
 </template>
 
 <script>
-import Container from '../components/layout/Container';
-import Video from '../components/Video';
-import Quote from '../components/lib/Quote';
-import Mountain from '../components/sections/Mountain';
-import Definition from '../components/sections/Definition';
-import YellowButton from '../components/lib/YellowButton';
-import PhotosCollages from '../components/PhotosCollages';
+import Container from '../components/layout/Container'
+import Video from '../components/Video'
+import Quote from '../components/lib/Quote'
+import Mountain from '../components/sections/Mountain'
+import Definition from '../components/sections/Definition'
+import YellowButton from '../components/lib/YellowButton'
+import PhotosCollages from '../components/PhotosCollages'
 
-import subtitles5 from '../assets/videos/5_conflits.vtt';
-import gribouilliSrc from '../assets/illus/gribouilli.svg'
+import subtitles5 from '../assets/videos/5_conflits.vtt'
+const gribouilliSrc = () => import('../assets/illus/gribouilli.svg')
 
-import flecheSrc from '../assets/illus/fleche-2.svg';
-import profilSrc from '../assets/insta.png';
+const flecheSrc = () => import('../assets/illus/fleche-2.svg')
+const profilSrc = () => import('../assets/insta.png')
 
-import collage11 from '../assets/photos/collage11.jpg';
-import collage12 from '../assets/photos/collage12.jpg';
-import collage13 from '../assets/photos/collage13.jpg';
+const collage11 = () => import('../assets/photos/collage11.jpg')
+const collage12 = () => import('../assets/photos/collage12.jpg')
+const collage13 = () => import('../assets/photos/collage13.jpg')
 
 export default {
   name: 'Part5',

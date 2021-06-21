@@ -13,9 +13,9 @@
 </template>
 
 <script>
-import Quote from '../components/lib/Quote';
-import Container from '../components/layout/Container';
-import grenadeSrc from '../assets/illus/grenade.svg'
+import Quote from '../components/lib/Quote'
+import Container from '../components/layout/Container'
+const grenadeSrc = () => import('../assets/illus/grenade.svg')
 
 export default {
   name: 'Header',

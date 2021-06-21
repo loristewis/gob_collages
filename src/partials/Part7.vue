@@ -32,11 +32,11 @@ import PhotosCollages from '../components/PhotosCollages';
 
 import subtitles7 from '../assets/videos/7_protection_infos.vtt';
 
-import flecheSrc from '../assets/illus/fleche-1.svg';
-import briefSrc from '../assets/illus/collages-feminicides-portable.png';
+const flecheSrc = () => import('../assets/illus/fleche-1.svg')
+const briefSrc = () => import('../assets/illus/collages-feminicides-portable.png')
 
-import collage17 from '../assets/photos/collage17.jpg';
-import collage18 from '../assets/photos/collage18.jpg';
+const collage17 = () => import('../assets/photos/collage17.jpg')
+const collage18 = () => import('../assets/photos/collage18.jpg')
 
 export default {
   name: 'Part7',

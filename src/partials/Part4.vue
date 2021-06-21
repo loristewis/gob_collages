@@ -34,18 +34,18 @@ import Container from '../components/layout/Container';
 import Video from '../components/Video';
 import Quote from '../components/lib/Quote';
 import Mountain from '../components/sections/Mountain';
+import PhotosCollages from '../components/PhotosCollages';
 
 import subtitles4 from '../assets/videos/4_communication.vtt'
 
-import metoo from '../assets/photos/metoo.jpg'
-import occupy from '../assets/photos/occupy.jpg'
-import pancarteSrc from '../assets/illus/pancarte.svg'
-import phoneSrc from '../assets/illus/portable.svg'
-import starSrc from '../assets/illus/etoile.svg'
+const metoo = () => import('../assets/photos/metoo.jpg')
+const occupy = () => import('../assets/photos/occupy.jpg')
+const pancarteSrc = () => import('../assets/illus/pancarte.svg')
+const phoneSrc = () => import('../assets/illus/portable.svg')
+const starSrc = () => import('../assets/illus/etoile.svg')
 
-import collage9 from '../assets/photos/collage9.jpg';
-import collage10 from '../assets/photos/collage10.jpg';
-import PhotosCollages from '../components/PhotosCollages';
+const collage9 = () => import('../assets/photos/collage9.jpg')
+const collage10 = () => import('../assets/photos/collage10.jpg')
 
 export default {
   name: 'Part4',

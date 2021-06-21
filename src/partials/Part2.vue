@@ -41,13 +41,13 @@ import Mountain from '../components/sections/Mountain';
 
 import subtitles2 from '../assets/videos/2_elisa.vtt'
 
-import femSymboleSrc from '../assets/illus/fem-symbole.svg'
+const femSymboleSrc = () => import('../assets/illus/fem-symbole.svg')
 
-import collage4 from '../assets/photos/collage4.jpg';
-import collage5 from '../assets/photos/collage5.jpg';
-import collage6 from '../assets/photos/collage6.jpg';
-import ligne from '../assets/illus/ligne-2.svg'
-import PhotosCollages from '../components/PhotosCollages';
+const collage4 = () => import('../assets/photos/collage4.jpg')
+const collage5 = () => import('../assets/photos/collage5.jpg')
+const collage6 = () => import('../assets/photos/collage6.jpg')
+const ligne = () => import('../assets/illus/ligne-2.svg')
+const PhotosCollages = () => import('../components/PhotosCollages')
 
 export default {
   name: 'Part2',
