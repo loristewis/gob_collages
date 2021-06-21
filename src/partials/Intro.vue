@@ -25,7 +25,7 @@
         <div class="intro video-grid">
           <div>
             <p>Mais qui sont ces militant·e·s ?</p>
-            <p>Nous avons rencontré <span class="underlined-text">Eliza</span>, co-fondatrice du collectif féministe et
+            <p>Nous avons rencontré <span class="underlined-text">Elisa</span>, co-fondatrice du collectif féministe et
               inclusif <span class="underlined-text">Les Grenades</span>, qui a accepté de répondre à nos questions sur
               le mouvement des collages et sur son militantisme.</p>
           </div>

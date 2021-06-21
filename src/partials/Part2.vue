@@ -54,7 +54,7 @@ export default {
   components: {Container, Video, Definition, Quote, UnderlinedText, Mountain, PhotosCollages},
   data() {
     return {
-      title: 'Eliza et les collages',
+      title: 'Elisa et les collages',
       quote: 'Je voulais aider d’autres victimes de violences sexuelles et sexistes à <span class="underlined-text">s’identifier</span> et leur dire qu’elles ne sont pas seules',
       subtitlesSrc: subtitles2,
       statistics: [
