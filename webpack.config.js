@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const config = {
 	entry: './src/index.js',
@@ -74,7 +75,8 @@ const config = {
 		]
 	},
 	plugins: [
-		new VueLoaderPlugin()
+		new VueLoaderPlugin(),
+		new BundleAnalyzerPlugin()
 	]
 };
 
