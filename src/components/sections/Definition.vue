@@ -2,7 +2,7 @@
   <div class="definition__container default-box">
     <h4 class="definition__title">{{ definition.title }}</h4>
     <p class="definition__content">{{ definition.content }}</p>
-    <small class="definition__source" v-if="definition.source">source : {{ definition.source }}</small>
+    <small class="definition__source" v-if="definition.source">Source : <span v-html="definition.source"></span></small>
   </div>
 </template>
 

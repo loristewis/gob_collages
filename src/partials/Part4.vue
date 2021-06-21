@@ -67,12 +67,12 @@ export default {
           {
             src: metoo,
             alt: '',
-            caption: '<a href="https://hanslucas.com/dmeyer/photo/19746" target="_blank>Denis Meyer / Hans Lucas</a>'
+            caption: '<a href="https://hanslucas.com/dmeyer/photo/19746" target="_blank">Denis Meyer / Hans Lucas</a>'
           },
           {
             src: occupy,
             alt: '',
-            caption: '<a href="https://commons.wikimedia.org/wiki/File:Day_14_Occupy_Wall_Street_September_30_2011_Shankbone_49.JPG" target="_blank>David Shankbone</a>'
+            caption: '<a href="https://commons.wikimedia.org/wiki/File:Day_14_Occupy_Wall_Street_September_30_2011_Shankbone_49.JPG" target="_blank">David Shankbone</a>'
           }
         ]
       },
@@ -142,7 +142,7 @@ export default {
 
       figcaption,
       figcaption a {
-        color: var(--dark-blue);
+        //color: var(--dark-blue);
         text-align: center;
       }
     }
