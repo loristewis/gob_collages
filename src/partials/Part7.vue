@@ -11,8 +11,8 @@
           <div class="brief"><img :src="briefSrc"></div>
           <div class="illu-svg"><img :src="flecheSrc"></div>
           <YellowButton
-              title="Voir le compte Insta de Collages Féminicides Paris"
-              href="https://www.instagram.com/collages_feminicides_paris/"
+              title="Voir le brief légal de Collages Féminicides Paris"
+              href="https://www.instagram.com/stories/highlights/17856058733064839/"
           />
         </div>
       </Container>

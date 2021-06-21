@@ -9,8 +9,8 @@
         </div>
         <div class="virtuels">
           <YellowButton
-              title="Voir le compte Insta de Collages Féminicides Paris"
-              href="https://www.instagram.com/collages_feminicides_paris/"
+              title="Découvrir le concept des collages virtuels"
+              href="https://collagesvirtuels.fr/album-confinement1"
           />
           <div class="illu-svg"><img :src="flecheSrc"></div>
           <div class="virtuel"><img :src="virtuelScr"></div>
