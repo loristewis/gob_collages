@@ -20,7 +20,7 @@ import grenadeSrc from '../assets/illus/grenade.svg'
 export default {
   name: 'Header',
   components: {Container, Quote},
-  data: function () {
+  data() {
     return {
       title: 'Militer pour inspirer',
       subtitle: 'Rencontre avec une colleuse',
