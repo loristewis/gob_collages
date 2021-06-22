@@ -117,7 +117,7 @@ export default {
     }
 
     > img {
-      max-width: 226px;
+      max-width: 300px;
     }
   }
 }

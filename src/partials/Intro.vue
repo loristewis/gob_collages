@@ -122,6 +122,11 @@ export default {
 
   a img {
     width: 55px;
+    transition: transform 300ms ease-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }
 

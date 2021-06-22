@@ -30,5 +30,18 @@ a {
   font-weight: 600;
   font-size: 1.667rem;
   color: var(--black);
+  transition: all 300ms ease-out;
+
+  &:hover {
+    background-color: #F7F457;
+    box-shadow: 0 5px 27px rgba(186, 184, 56, 0.45);
+    transform: scale(1.01);
+  }
+
+  &:active {
+    background-color: #D7D43A;
+    box-shadow: 0 5px 27px rgba(186, 184, 56, 0.45);
+    transform: scale(1.05);
+  }
 }
 </style>

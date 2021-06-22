@@ -137,6 +137,7 @@ export default {
 
     > div {
       padding: 24px;
+      transition: all 300ms ease-out;
 
       .stats {
         &__title {
@@ -148,9 +149,25 @@ export default {
           --fluid-type-max: 3.7rem;
           font-weight: 500;
           line-height: 1.2;
-        }
 
-        &__source {
+          padding: 0 0 0 0.5rem;
+          margin: 0 0 0 -0.5rem;
+          box-decoration-break: clone;
+
+          background-size: calc(100% - 0.4rem) 0;
+          background-position: 10% 88%;
+
+          background-repeat: no-repeat;
+          background-image: linear-gradient(120deg, var(--yellow), var(--yellow));
+          transition: background-size 0.4s ease-in;
+        }
+      }
+
+      &:hover {
+        transform: scale(1.02);
+
+        .stats__bigger {
+          background-size: calc(100% - 0.4rem) 40%;
         }
       }
     }
