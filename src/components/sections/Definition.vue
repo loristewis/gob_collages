@@ -32,7 +32,7 @@ export default {
 .definition {
   &__container {
     margin-top: 80px;
-    padding: 32px 24px 40px;
+    padding: 32px 24px 24px;
 
     @include sm {
       padding: 48px 40px;
@@ -55,12 +55,7 @@ export default {
     }
   }
 
-  &__content {
-
-  }
-
   &__source {
-    position: absolute;
     margin-top: 0;
     color: #6B6B6B;
   }
