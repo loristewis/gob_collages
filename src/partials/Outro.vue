@@ -9,7 +9,7 @@
             Surtout dans une période de crise sanitaire, où un entretien à distance était notre seule option.
           </p>
           <p>
-            Merci également à toutes les personnes qui ont apporté des sources de documentation, notamment nos professeur.e.s Augustin Gimel, Sophie Quatrebarbes, Pauline Gommy, Sarah Garcin, et Sylvie Masson, ainsi qu'Elsa Delmas.
+            Merci également à toutes les personnes qui ont apporté des sources de documentation, notamment nos professeur.e.s Augustin, Sophie, Pauline, Sarah et Sylvie, ainsi qu'Elsa pour ses références et conseils.
           </p>
         </div>
       </Container>
@@ -20,7 +20,7 @@
           <div class="illu-svg"><img :src="peintureSrc" alt=""></div>
           <h4>Militer pour inspirer : Rencontre avec une colleuse (2021)</h4>
           <p>
-            est un projet de longform-webdoc réalisé par Elie Nissen, Léa Kovarski, Némo Quehen et Anna Xiberras (design) et Loris Birkemeyer (développement), dans le cadre d’un projet étudiant à Gobelins, l’école de l’image. Son but est uniquement pédagogique et éducatif, et n’a nulle vocation commerciale ou publicitaire.
+            est un projet de longform-webdoc réalisé par Elie, Léa, Némo et Anna (design) et Loris (développement), dans le cadre d’un projet étudiant à Gobelins, l’école de l’image. Son but est uniquement pédagogique et éducatif, et n’a nulle vocation commerciale ou publicitaire.
           </p>
         </div>
         <div class="illu-svg"><img :src="portableSrc" alt=""></div>
